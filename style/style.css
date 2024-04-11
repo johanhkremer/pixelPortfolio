@@ -1,0 +1,457 @@
+/*Fonts Start*/
+@font-face {
+  font-family: yoster;
+  src: url(../fonts/yoster.ttf);
+}
+@font-face {
+  font-family: bitfont;
+  src: url(../fonts/bitfont.ttf);
+}
+/*Fonts End*/
+/*All Start*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #5f5758;
+  font-family: yoster;
+}
+h1 {
+  text-shadow: 2px 2px 4px #00000080;
+  font-size: 2rem;
+  font-family: bitfont;
+}
+#h2-hero {
+  text-shadow: 2px 2px 4px #00000080;
+  color: #000000;
+  font-size: 0.9rem;
+  font-family: bitfont;
+}
+h3 {
+  color: #faebd7;
+  text-shadow: 2px 2px 4px #00000080;
+}
+h4,
+h5 {
+  text-shadow: 2px 2px 4px #00000080;
+}
+/*All End*/
+/*Header Start*/
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0c0c;
+}
+.container-img-crystal {
+  display: none;
+}
+/*Header-Menu Start*/
+header > nav {
+  margin: 0;
+  padding: 0;
+}
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+}
+header > nav > ul > li > a {
+  padding: 100% 1rem 100% 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  color: #e5e5e5;
+  text-decoration: none;
+}
+#start:hover {
+  background-color: #49b6a3;
+}
+#select:hover {
+  background-color: #93c569;
+}
+#blog:hover {
+  background-color: #dbc851;
+}
+#about:hover {
+  background-color: #e15d5d;
+}
+/*Header-Menu End*/
+/*Header End*/
+/*Hero-section Start*/
+.hero {
+  background-image: url(../img/heroesJourney2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+.hero-container {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+#hero-link {
+  color: #0d0c0c;
+  font-family: bitfont;
+  font-size: 0.7rem;
+}
+#hero-link:hover {
+  background-color: #88d14d80;
+  border-radius: 0.3rem;
+}
+/*Hero-section End*/
+/* Style for all articles */
+.conatiner-content > section > article {
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: #0d0c0c 1px solid;
+  background: linear-gradient(#c9b08a, #9b8565);
+}
+/*Selling Points Start*/
+.sellingPoints {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.sellingPoints-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sellingPoints-img {
+  width: 6rem;
+  padding-right: 1rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.sellingPoints-img > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 0.1rem #d3c8b7 solid;
+  box-shadow: 2px 2px 4px #00000080;
+}
+/* Selling Points End*/
+/* Skills Start*/
+.skills {
+  padding: 1rem;
+}
+.skills-top1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-top2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.skills-top3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-top4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+/* Skills End*/
+/* Blog Start*/
+.blog {
+  padding: 1rem;
+}
+/* Blog-sideNav Start*/
+.navbar {
+  border: #0d0c0c 1px solid;
+  background-color: #d8c8b0;
+}
+.navbar > nav > ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar > nav > ul > li {
+  font-weight: bolder;
+  padding: 1rem;
+  text-shadow: 2px 2px 4px #00000080;
+}
+.navbar > nav > ul > li > a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #50494a;
+  text-shadow: 2px 2px 4px #00000080;
+}
+.navbar > nav > ul > li > a:hover {
+  color: #93c569;
+}
+/* Blog-sideNav End*/
+.blog-articles > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: #0d0c0c 1px solid;
+  background-color: #c9b08a;
+}
+.blog-article-SNES {
+  margin-bottom: 1rem;
+}
+.blog-article-SNES-img {
+  width: 15rem;
+}
+.blog-article-SNES-img > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 0.1rem #d3c8b7 solid;
+  box-shadow: 2px 2px 4px #00000080;
+}
+.blog-article-pixelArt {
+  margin-bottom: 1rem;
+}
+.blog-article-pixelArt-img {
+  width: 15rem;
+}
+.blog-article-pixelArt-img > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 0.1rem #d3c8b7 solid;
+  box-shadow: 2px 2px 4px #00000080;
+}
+.blog-article-herosJourney-img {
+  width: 15rem;
+}
+.blog-article-herosJourney-img > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 0.1rem #d3c8b7 solid;
+  box-shadow: 2px 2px 4px #00000080;
+}
+.linkPixelart {
+  color: #4b4546;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #00000080;
+}
+.linkPixelart:hover {
+  color: #49b6a3;
+}
+/* Blog End*/
+/* Form Start*/
+.conatiner-form-section {
+  padding: 1rem;
+}
+.conatiner-form {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: #0d0c0c 1px solid;
+  background: linear-gradient(#c9b08a, #9b8565);
+}
+form {
+  width: 100vw;
+}
+form > input[type="text"] {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+form > input[type="email"] {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+form > textarea {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+form > input[type="submit"] {
+  font-family: bitfont;
+  background-color: #d3c8b7;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+.form-img {
+  width: 30rem;
+}
+.form-img > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 0.1rem #d3c8b7 solid;
+  box-shadow: 2px 2px 4px #00000080;
+}
+.mainMenu {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+.mainMenu > a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  color: #faebd7;
+  text-shadow: 2px 2px 4px #00000080;
+}
+.mainMenu > a:hover {
+  color: #49b6a3;
+}
+/* Form End*/
+/* Footer Start*/
+footer {
+  background-color: #0d0c0c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #e5e5e5;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+/* Footer End*/
+/*Jag har tagit brytpunkterna från bootstrap)*/
+/*Small*/
+@media screen and (min-width: 576px) {
+  body {
+    margin: 0 auto;
+  }
+  .container-img-crystal {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    width: 5rem;
+    transition: transform 0.3s;
+  }
+  .container-img-crystal > a > img {
+    width: 100%;
+    border-radius: 0.6rem;
+    border: 0.1rem #d3c8b7 solid;
+  }
+  .container-img-crystal:hover {
+    transform: scale(1.2);
+  }
+  /*Blog*/
+  .blog-navbar-articles {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .navbar {
+    flex: 1;
+  }
+  .navbar > nav > ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar > nav > ul > li {
+    padding-top: 1rem;
+  }
+  .article {
+    flex: 6;
+    padding-top: 0;
+  }
+}
+/*Medium*/
+@media screen and (min-width: 768px) {
+  /*Header*/
+  header {
+    justify-content: space-between;
+  }
+  /* Skills*/
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .skills > h3 {
+    flex-basis: 100%;
+  }
+  .skills > article {
+    flex-basis: 49%;
+  }
+  /*Blog*/
+  .blog-articles > article {
+    display: block;
+  }
+  .blog-article-SNES-img {
+    float: right;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  .blog-article-pixelArt-img {
+    float: right;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+  .blog-article-herosJourney-img {
+    float: right;
+    margin: 0rem 1rem 1rem 1rem;
+  }
+}
+/*Large*/
+@media screen and (min-width: 992px) {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  /*Selling Points*/
+  .sellingPoints {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .sellingPoints > h3 {
+    flex-basis: 100%;
+  }
+  .sellingPoints > article {
+    flex-basis: 32%;
+  }
+  .hero {
+    height: 30rem;
+  }
+  /* Skills*/
+  .skills {
+    padding: 0rem;
+  }
+  .skills > h3 {
+    flex-basis: 100%;
+  }
+  .skills > article {
+    flex-basis: 49%;
+  }
+  /* Blog*/
+  .blog {
+    padding: 0rem;
+  }
+  /* Form Start*/
+  .conatiner-form-section {
+    padding: 0rem;
+  }
+}
+/* 
+HEX-koder NES:
+#0d0c0c	Black
+#a5a2a2	Darkgrey
+#e5e5e5	Lightgrey
+#ffffff	White
+#dd2020	Red
+
+HEX-koder SNES:
+#49b6a3 Teal
+#93c569 Green
+#dbc851 Yellow
+#e15d5d Red
+#5f5758 Grey
+*/
